@@ -85,9 +85,9 @@ A. Basic Styling
 
 body {
     color: #191919;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', sans-serif;
     font-weight: 400;
-    font-size: .9375rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 0;
 }
@@ -98,12 +98,12 @@ html {
 
 h1, .ts-h1 {
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 }
 
 h2, .ts-h2 {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 h3, .ts-h3 {
@@ -2198,7 +2198,7 @@ E. Template Specific Elements
     }
 
     h2, .ts-h2 {
-        font-size: 1.625rem;
+        font-size: 2.625rem;
     }
 
     h3, .ts-h3 {
@@ -2236,7 +2236,7 @@ E. Template Specific Elements
     }
 
     h2, .ts-h2 {
-        font-size: 1.875rem;
+        font-size: 2.875rem;
     }
 
     h3, .ts-h3 {
@@ -2274,7 +2274,7 @@ E. Template Specific Elements
     }
 
     h2, .ts-h2 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     h3, .ts-h3 {
@@ -2317,11 +2317,11 @@ E. Template Specific Elements
     }
 
     h1, .ts-h1 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
     }
 
     h2, .ts-h2 {
-        font-size: 2.25rem;
+        font-size: 3.25rem;
     }
 
     h3, .ts-h3 {
@@ -2396,7 +2396,7 @@ E. Template Specific Elements
     }
 
     .ts-promo-numbers h2 {
-        font-size: 2.25rem;
+        font-size: 3.25rem;
     }
 }
 
@@ -2442,13 +2442,13 @@ E. Template Specific Elements
 
 @media (max-width: 47.9375rem) {
     h4, .ts-h4 {
-        font-size: 1.125rem;
+        font-size: 2.125rem;
     }
 }
 
 @media (min-width: 48rem) {
     h4, .ts-h4 {
-        font-size: 1.25rem;
+        font-size: 2.25rem;
     }
 
     .navbar.navbar-expand-md .navbar-nav {
