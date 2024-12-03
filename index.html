@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-	<title>FinWin - One Page Business Template</title>
+	<title>Dian y Os - Nuestra boda :)</title>
 
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css" />
 
@@ -120,7 +120,7 @@
                                     <div class="ts-item-body">
                                         <h4>Código de vestimenta</h4>
                                         <p>
-                                            Es una celebración importante para nosotros pero nos importa también que vengas cómod@. Ponte algo lindo para que estés a gusto.
+                                            Algo elegante y agradable para que salgas bien en las fotos.
                                         </p>
                                     </div>
                                     <!--end ts-item-body-->
@@ -199,117 +199,6 @@
             </section>
             <!--END ABOUT US ****************************************************************************************-->
 
-            <!--TIMELINE ********************************************************************************************-->
-            <section id="our-life-sotry" class="ts-block ts-separate-bg-element ts-background-repeat" data-bg-image-opacity=".1" data-bg-image="assets/img/bg-pattern-dot.png">
-                <div class="text-center ts-title">
-                    <h2>💖✨❤️ Nuestra historia de amor ❤️✨💖</h2>
-                </div>
-                <!--end ts-title-->
-                <div class="ts-time-line__horizontal">
-                    <ul class="pt-1 owl-carousel" data-owl-items="99" data-owl-auto-width="1">
-                        <li class="ts-time-line__item ts-time-line__milestone">
-                            <div class="ts-box">
-                                <h5>Nos conocimos</h5>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>Agosto</small>
-                                <h6>2023</h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-
-                        <li class="ts-time-line__item">
-                            <div class="ts-box">
-                                <h5>Salimos más frecuentemente</h5>
-                                <p>
-                                    En este mes, salimos tooodos los fines de semana.
-                                </p>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>Diciembre</small>
-                                <h6>2023</h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-
-                        <li class="ts-time-line__item">
-                            <div class="ts-box">
-                                <h5>Nos hicimos novios</h5>
-                                <p>
-                                    El 27 de enero nos hicimos novios. Sin duda una fecha maravillosa :)
-                                </p>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>Enero</small>
-                                <h6>2024</h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-
-                        <li class="ts-time-line__item ts-time-line__milestone">
-                            <div class="ts-box">
-                                <h5>¡Empezamos a vivir juntos!</h5>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>Febrero</small>
-                                <h6>2024</h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-
-                        <li class="ts-time-line__item">
-                            <div class="ts-box">
-                                <h5>Oswaldo le propuso matrimonio a Dian</h5>
-                                <p>
-                                    El abril más bonito de nuestras vidas. El 28 de abril Dian dijo que sí.
-                                </p>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>Abril</small>
-                                <h6>2024</h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-
-
-                        <li class="ts-time-line__item">
-                            <div class="ts-box">
-                                <h5>¡¡Nuestra boda!!</h5>
-                                <p>
-                                    El 2024 será marcado como el mejor año de nuestras vidas. Todo es mejor en compañia de los seres que más apreciamos.
-                                </p>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>Diciembre</small>
-                                <h6>2024</h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-                        <li class="ts-time-line__item">
-                            <div class="ts-box">
-                                <h5>Más y más amor</h5>
-                                <p>
-                                    El amor y compromiso nos da fe en nuestra relación.
-                                </p>
-                            </div>
-                            <!--end ts-box-->
-                            <figure>
-                                <small>...</small>
-                                <h6><b>∞</b></h6>
-                            </figure>
-                            <!--end date-->
-                        </li>
-                    </ul>
-                </div>
-                <!--end ts-timeline__horizontal-->
-            </section>
-            <!--END TIMELINE ****************************************************************************************-->
         </main>
         <!--end #content-->
 
@@ -377,6 +266,7 @@
 
     <script>
 
+        /*
         var invitadx = {
             "34rd": "Marta",
             "54eb": "Paty",
@@ -417,6 +307,13 @@
         } else {
             window.location.href = "http://172.17.144.1:5500/404.html"
         }
+        */
+        const queryString = window.location.search;
+        var urlParams = new URLSearchParams(queryString);
+        var nombre = urlParams.get("inv");
+        document.getElementById("invitadxName").innerHTML = nombre;
+        console.log(nombre);
+        
     </script>
 
 	<script src="assets/js/custom.hero.js"></script>
